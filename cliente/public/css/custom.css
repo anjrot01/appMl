@@ -1,0 +1,139 @@
+/*******Search header***************/
+.container.search-holder {
+  padding: 0;
+}
+header.only-search {
+  background: #ffe600;
+  padding: 10px;
+}
+input.meli-search {
+  width: 89%;
+  padding: 5px 20px;
+  font-size: 18px;
+  border: unset;
+  margin: 0 0 0 25px;
+}
+a.meli-search {
+  padding: 10px;
+  background: #eeeeee;
+}
+/*******END Search header***************/
+
+/*******Container results***************/
+section.search-reuslts {
+  background: #eeeeee;
+  height: auto;
+}
+
+/*******Container results***************/
+
+/*******Bredcrumbs***************/
+.container.results {
+  background: #fff;
+}
+.ml-breadcrumb {
+  padding: 16px 0;
+}
+.ml-breadcrumb a:after {
+  content: ">";
+  padding: 0 5px;
+  font-size: 10px;
+}
+.ml-breadcrumb a:last-child:after {
+  content: unset;
+}
+.ml-breadcrumb a {
+  font-size: 14px;
+  color: #999999;
+}
+/*******End Bredcrumbs***************/
+
+/*******Results***************/
+p {
+  margin: 0 !important;
+  columns: #333333 !important;
+}
+hr {
+  margin: 0 !important;
+}
+.img-product img {
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+}
+.img-product {
+  padding: 16px 8px 16px 16px;
+}
+.col-8 {
+  padding: 0 !important;
+}
+.price-and-description {
+  padding: 16px 0 16px 8px;
+}
+.price-box {
+  padding: 16px 0;
+  overflow: hidden;
+}
+p.price {
+  float: left;
+  font-size: 24px;
+}
+span.free-shipping {
+  padding-left: 10px;
+}
+p.location {
+  float: right;
+  font-size: 12px;
+  color: #999999;
+}
+.description {
+  padding: 16px 0;
+}
+a.description-text {
+  color: #333333;
+}
+/*******Results***************/
+
+/*******Product Page***************/
+.main-image img {
+  width: 680px;
+  margin: auto;
+  height: 680px;
+  display: block;
+}
+.product-description {
+  padding: 32px;
+}
+.product-description h2 {
+  font-size: 28px;
+  margin: 0;
+  padding-bottom: 32px;
+}
+.product-description p {
+  font-size: 16px;
+  text-align: justify;
+}
+.product-reference {
+  padding: 32px 32px 32px 0;
+}
+.condition-stock p {
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+.title h2 {
+  padding: 0 32px 32px 0;
+  font-size: 24px;
+  margin: 0;
+}
+.price-detail p {
+  font-size: 46px;
+  padding-bottom: 32px;
+}
+.product-reference button {
+  width: 100%;
+  border: unset;
+  padding: 10px;
+  background: #3483fa;
+  color: #fff;
+}
+/*******END Product Page***************/
